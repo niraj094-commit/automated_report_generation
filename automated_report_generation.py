@@ -107,3 +107,9 @@ pdf.ln(2)
 
 # Saving the PDF
 pdf.output("Report.pdf")
+
+
+print("FIle 'Report.pdf' generated successfully in the current directory ")
+input("Press 'Enter' to Exit...")
+
+
