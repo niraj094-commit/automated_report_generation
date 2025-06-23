@@ -1,6 +1,10 @@
 import csv
 import statistics
 from fpdf import FPDF
+import os
+
+# To make sure this file Runs in the current folder on double clicking this file
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 # Grabbing that CSV !
 with open("data.csv", "r", newline="") as file:
