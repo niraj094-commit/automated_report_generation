@@ -109,7 +109,7 @@ pdf.ln(2)
 pdf.output("Report.pdf")
 
 
-print("FIle 'Report.pdf' generated successfully in the current directory ")
+print("FIle 'Report.pdf' generated successfully in the automated_report_generation directory ")
 input("Press 'Enter' to Exit...")
 
 
